@@ -1,0 +1,17 @@
+{
+  "name": "root",
+  "private": true,
+  "devDependencies": {
+    "lerna": "3.13.1"
+  },
+  "scripts": {
+    "bootstrap": "lerna bootstrap --hoist",
+    "start": "lerna run start --stream",
+    "tsc": "lerna run tsc --stream",
+    "watch": "lerna run watch --stream",
+    "cleanup": "rm -rf node_modules && lerna run cleanup --stream"
+  },
+  "dependencies": {
+    "typescript": "^3.8.3"
+  }
+}
