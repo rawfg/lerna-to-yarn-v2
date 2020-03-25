@@ -4,9 +4,11 @@
   "devDependencies": {
     "lerna": "3.13.1"
   },
-  "workspaces": ["packages/*"],
+  "workspaces": [
+    "packages/*"
+  ],
   "scripts": {
-    "bootstrap": "lerna bootstrap",
+    "bootstrap": "yarn",
     "start": "lerna run start --stream",
     "tsc": "lerna run tsc --stream",
     "watch": "lerna run watch --stream",
